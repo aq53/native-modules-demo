@@ -1,0 +1,5 @@
+rootProject.name = 'native_android_demo'
+include ':quick-print-module'
+project(':quick-print-module').projectDir = new File(rootProject.projectDir, '../node_modules/quick-print-module/android/app')
+
+include ':app'
